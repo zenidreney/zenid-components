@@ -1,0 +1,21 @@
+.badge {
+    font-family: "Inter", sans-serif;
+    width: 4.2em;
+    height: 1.5em;
+    border-radius: 4px;
+    padding-top: 0.125em;
+    padding-right: 0.75em;
+    padding-bottom: 0.125em;
+    padding-left: 0.75em;
+    opacity: 1;
+}
+
+.badge-grey {
+    background-color: #F3F4F6;
+    color: #1F2937;
+}
+
+.badge-green {
+    background-color: lightgreen;
+    color: green;
+}

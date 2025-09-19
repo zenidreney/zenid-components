@@ -1,3 +1,6 @@
+import Badge from "./components/Badge/Badge"
+import "./components/Badge/Badge.css"
+
 import Star from "./components/Star"
 import "./components/Star.css"
 
@@ -14,19 +17,27 @@ function App() {
     <>
       <h1>React Components ++</h1>
 
-      <p>Star Component</p>
-      <Star onChange={() => console.log("Changed")}/>
+      <p>Badge Component</p>
 
-      <br/>
-      <hr/>
+      <Badge
+        color= "green"/>
+
+      <br />
+      <hr />
+
+      <p>Star Component</p>
+      <Star onChange={() => console.log("Changed")} />
+
+      <br />
+      <hr />
 
       <p>Button Component</p>
       <Button variant="success" size="sm">Hello</Button>
       <Button variant="success">Hello</Button>
       <Button variant="success" size="lg">Hello</Button>
 
-      <br/>
-      <hr/>
+      <br />
+      <hr />
 
       <p>Menu Component</p>
       <Menu onOpen={() => console.log("Opened/closed")}>
@@ -49,10 +60,10 @@ function App() {
         </Menu.Dropdown>
       </Menu>
 
-      <hr/>
+      <hr />
     </>
 
-    
+
   )
 }
 

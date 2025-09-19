@@ -9,7 +9,7 @@ const MenuContext = React.createContext()
 
 export default function Menu({ children, onOpen }) {
     const [open, toggleOpen] = useToggle({
-        initialValue: true, 
+        initialValue: false, 
         onToggle: onOpen
     })
     

@@ -1,8 +1,8 @@
 import React from "react"
 
 export default function useEffectOnUpdate(effectFunction, deps) {
-    console.log("useEffect")
     const firstRender = React.useRef(true)
+    console.log(firstRender)
     
     React.useEffect(() => {
         if (firstRender.current) {
