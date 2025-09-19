@@ -10,7 +10,6 @@ export default function Star({ onChange }) {
         }
     )
 
-    console.log(on, toggle)
     return (
         <>
             {
