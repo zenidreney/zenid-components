@@ -9,8 +9,7 @@ import classnames from "classnames"
 export default function Banner({ children, text, variant }) {
 
     const variantClass = variant && `banner-${variant}`
-    const hideIcon = children && "hide-icon"
-    const classNames = classnames("banner-container", variantClass, hideIcon)
+    const classNames = classnames("banner-container", variantClass)
     
     const icon = (variant === "success") ? <FcOk /> :
                  (variant === "warning") ? <IoIosWarning className="warning-icon" /> : 

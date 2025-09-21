@@ -1,7 +1,7 @@
 import Badge from "./Badge"
 
 const colorOptionsArray = ["grey", "red", "yellow", "green", "blue", "indigo", "purple", "pink"]
-const badgeContentArray = ["You", "can", "pass", "your", "own", "word", "to", "badge"]
+const badgeContentArray = ["You", "can", "pass", "your", "own", "props", "to", "badge"]
 
 const SampleBadge = colorOptionsArray.map((color, i) => {
 

@@ -1,7 +1,5 @@
 import "./components/Badge/Badge.css"
 import SampleSquareBadge from "./components/Badge/SampleSquareBadge"
-
-import "./components/Badge/Badge.css"
 import SamplePillBadge from "./components/Badge/SamplePillBadge"
 
 import Star from "./components/Star"
@@ -9,6 +7,9 @@ import "./components/Star.css"
 
 import "./components/Button/Button.css"
 import SampleButton from "./components/Button/SampleButton"
+
+//import "./components/Card/Card.css"
+import SampleCard from "./components/Card/SampleCard"
 
 import "./components/Menu/Menu.css"
 import SampleMenu from "./components/Menu/SampleMenu"
@@ -43,6 +44,9 @@ function App() {
 
       <h3>Multi-Line Line</h3>
       {SampleMultiLineBanner}
+
+      <h2>Card Component</h2>
+      {SampleCard}
 
       <h2>Star Component</h2>
       <Star onChange={() => console.log("Changed")} />
