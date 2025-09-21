@@ -1,67 +1,66 @@
-import Badge from "./components/Badge/Badge"
 import "./components/Badge/Badge.css"
+import SampleSquareBadge from "./components/Badge/SampleSquareBadge"
+
+import "./components/Badge/Badge.css"
+import SamplePillBadge from "./components/Badge/SamplePillBadge"
 
 import Star from "./components/Star"
 import "./components/Star.css"
 
-import Button from "./components/Button/Button"
 import "./components/Button/Button.css"
+import SampleButton from "./components/Button/SampleButton"
 
-import Menu from "./components/Menu/Menu"
 import "./components/Menu/Menu.css"
+import SampleMenu from "./components/Menu/SampleMenu"
+
+import "./components/Banner/Banner.css"
+import { SampleSingleLineBanner, SampleMultiLineBanner } from "./components/Banner/SampleBanner"
 
 
 function App() {
 
   return (
-    <>
+    <div className="components-container">
       <h1>React Components ++</h1>
 
-      <p>Badge Component</p>
+      <h2>Badge Component</h2>
+      <h3>Square Badge</h3>
+      <div className="badge-container">
+        {SampleSquareBadge}
+      </div>
 
-      <Badge
-        color= "green"/>
+      <h3>Pill Badge</h3>
+      <div className="badge-container">
+        {SamplePillBadge}
+      </div>
 
       <br />
       <hr />
 
-      <p>Star Component</p>
+      <h2>Banner Component</h2>
+      <h3>Single-Line</h3>
+      {SampleSingleLineBanner}
+
+      <h3>Multi-Line Line</h3>
+      {SampleMultiLineBanner}
+
+      <h2>Star Component</h2>
       <Star onChange={() => console.log("Changed")} />
 
       <br />
       <hr />
 
-      <p>Button Component</p>
-      <Button variant="success" size="sm">Hello</Button>
-      <Button variant="success">Hello</Button>
-      <Button variant="success" size="lg">Hello</Button>
+      <h2>Button Component</h2>
+      {SampleButton}
 
       <br />
       <hr />
 
-      <p>Menu Component</p>
-      <Menu onOpen={() => console.log("Opened/closed")}>
-        <Menu.Button>
-          Menu
-        </Menu.Button>
-        <Menu.Dropdown>
-          <Menu.Item>
-            Item 1
-          </Menu.Item>
-          <Menu.Item>
-            Item 2
-          </Menu.Item>
-          <Menu.Item>
-            Item 3
-          </Menu.Item>
-          <Menu.Item>
-            Item 4
-          </Menu.Item>
-        </Menu.Dropdown>
-      </Menu>
-
+      <h2>Menu Component</h2>
+      {SampleMenu}
       <hr />
-    </>
+
+    </div>
 
 
   )
