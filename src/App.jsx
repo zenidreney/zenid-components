@@ -8,7 +8,7 @@ import "./components/Star.css"
 import "./components/Button/Button.css"
 import SampleButton from "./components/Button/SampleButton"
 
-//import "./components/Card/Card.css"
+import "./components/Card/Card.css"
 import SampleCard from "./components/Card/SampleCard"
 
 import "./components/Menu/Menu.css"

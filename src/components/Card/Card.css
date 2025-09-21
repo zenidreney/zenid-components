@@ -1,0 +1,33 @@
+div.card-container {
+    font-family: Inter, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 384px;
+    height: 208;
+    border: 1px solid grey;
+    border-radius: 8px;
+    padding: 0 1.5em 2em;
+
+    gap: 2em;
+    background-color: #F9FAFB;
+    margin: 0 auto;
+
+    box-shadow: 0px 4px 6px -2px #0000000D;
+    box-shadow: 0px 10px 15px -3px #0000001A;
+
+}
+
+div.card-container svg {
+    position:relative;
+    top: -1em;
+    background-color: #3F75FE;
+    color: #ffffff;
+    font-size: 1.5em;
+    width: 3em;
+    height: 3em;
+    border-radius: 6px;
+    padding: 0.4em;
+    
+}
