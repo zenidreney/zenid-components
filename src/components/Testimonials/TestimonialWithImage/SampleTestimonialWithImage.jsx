@@ -7,7 +7,7 @@ const Props = <TestimonialWithImage
     bgColor="brown"
     name="Clara Boss"
     title="Clara Corp., CWO"
->Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nulla vitae laoreet augue. Amet feugiat est integer dolor auctor adipiscing nunc urna, sit.
+>You can add the quote as children props to this component check out the other props as well. Enjoy the component.
 </TestimonialWithImage>
 
 export { DefaultTestimonialWithImage, Props }
