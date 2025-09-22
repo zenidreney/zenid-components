@@ -6,17 +6,17 @@ const badgeContentArray = ["You", "can", "pass", "your", "own", "props", "to", "
 const SamplePillBadge = colorOptionsArray.map((color, i) => {
 
     return <Badge
-        key={color}
+        key={`${i}-${color}`}
         color={color}
         variant="pill" > {badgeContentArray[i]}</Badge>
 }
 )
 
-const SampleSquareBadge = colorOptionsArray.map((color) => (
+const SampleSquareBadge = colorOptionsArray.map((color, i) => (
 
 
     <Badge
-        key={color}
+        key={`${color}-${i}`}
         color={color}
         variant="square" />
 ))
