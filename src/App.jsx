@@ -4,7 +4,7 @@ import { SamplePillBadge, SampleSquareBadge } from "./components/Badge/SampleBad
 
 import SampleButton from "./components/Button/SampleButton"
 
-import SampleTestimonialWithImage from "./components/Testimonials/TestimonialWithImage/SampleTestimonialWithImage"
+import { DefaultTestimonialWithImage, Props } from "./components/Testimonials/TestimonialWithImage/SampleTestimonialWithImage"
 
 import { SampleDefaultCard, SamplePropsCard } from "./components/Card/SampleCard"
 
@@ -22,7 +22,11 @@ function App() {
 
 
         <h2>Testimonials Component</h2>
-        {SampleTestimonialWithImage}
+        <h3>Default Testimonial with Image</h3>
+        {DefaultTestimonialWithImage}
+
+        <h3>Props Testimonial with Image</h3>
+        {Props}
 
         <h2>Badge Component</h2>
         <h3>Square Badge</h3>
