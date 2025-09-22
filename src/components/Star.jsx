@@ -1,4 +1,4 @@
-import React from "react"
+import "./Star.css"
 import { BsStar, BsStarFill } from "react-icons/bs"
 import useToggle from "../hooks/useToggle.js"
 

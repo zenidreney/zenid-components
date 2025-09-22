@@ -1,20 +1,17 @@
-import "./components/Badge/Badge.css"
+import Star from "./components/Star"
+
 import { SamplePillBadge, SampleSquareBadge } from "./components/Badge/SampleBadge"
 
-import Star from "./components/Star"
-import "./components/Star.css"
-
-import "./components/Button/Button.css"
 import SampleButton from "./components/Button/SampleButton"
 
-import "./components/Card/Card.css"
+import SampleTestimonialWithImage from "./components/Testimonials/TestimonialWithImage/SampleTestimonialWithImage"
+
 import { SampleDefaultCard, SamplePropsCard } from "./components/Card/SampleCard"
 
-import "./components/Menu/Menu.css"
 import SampleMenu from "./components/Menu/SampleMenu"
 
-import "./components/Banner/Banner.css"
 import { SampleSingleLineBanner, SampleMultiLineBanner } from "./components/Banner/SampleBanner"
+
 
 
 function App() {
@@ -22,6 +19,10 @@ function App() {
   return (
     <div className="components-container">
       <h1>React Components ++</h1>
+
+
+        <h2>Testimonials Component</h2>
+        {SampleTestimonialWithImage}
 
         <h2>Badge Component</h2>
         <h3>Square Badge</h3>

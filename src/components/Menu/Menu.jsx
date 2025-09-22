@@ -1,4 +1,5 @@
 import React from "react"
+import "./Menu.css"
 import useToggle from "../../hooks/useToggle"
 
 import MenuButton from "./MenuButton"

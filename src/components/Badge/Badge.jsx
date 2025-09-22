@@ -1,3 +1,4 @@
+import "./Badge.css"
 import classnames from "classnames"
 
 export default function Badge({children="badge", color="green", variant="square"}) {

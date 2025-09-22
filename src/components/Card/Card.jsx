@@ -1,3 +1,4 @@
+import "./Card.css"
 import { HiOutlineCloudUpload } from "react-icons/hi";
 
 const defaultValues = {

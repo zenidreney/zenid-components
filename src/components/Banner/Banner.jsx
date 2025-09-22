@@ -3,6 +3,7 @@ import { IoIosWarning } from "react-icons/io";
 import { IoIosCloseCircle } from "react-icons/io";
 import { FcInfo } from "react-icons/fc";
 import classnames from "classnames"
+import "./Banner.css"
 
 
 
