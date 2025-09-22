@@ -19,15 +19,24 @@ div.card-container {
 
 }
 
+div.icon-container {
+    position: relative;
+    top: -20px;
+    width: 4.5em;
+    height: 4.5em;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
 div.card-container svg {
-    position:relative;
-    top: -1em;
-    background-color: #3F75FE;
     color: #ffffff;
     font-size: 1.5em;
     width: 3em;
     height: 3em;
     border-radius: 6px;
     padding: 0.4em;
-    
+
 }

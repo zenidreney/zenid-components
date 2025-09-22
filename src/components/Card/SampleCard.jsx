@@ -2,20 +2,15 @@ import Card from "./Card"
 import { RxUpload } from "react-icons/rx";
 
 
-const SampleCard = <>
+const SampleDefaultCard =
     <Card />
 
-    <br />
-
+const SamplePropsCard =
 
     <Card
-        icon={<RxUpload 
-                style={{backgroundColor:"brown"}}
-        />}
-        
+        icon={<RxUpload />}
+        iconBgColor="brown"
         title="Props Based"
-    >Some sample text</Card>
+    >Some sample text. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam quo totam eius aperiam dolorum.</Card>
 
-</>
-
-export default SampleCard
+export { SampleDefaultCard, SamplePropsCard }
