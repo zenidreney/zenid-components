@@ -13,19 +13,17 @@ body {
 
 }
 
-div.components-container {
+section {
+    margin-bottom: 3em;
+    padding-bottom: 2em;
+    border-bottom: 1px solid #5E5D5D;
+}
+
+main.components-container {
     max-width: 720px;
 }
 
-div.badge-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 0.3em;
-    margin-bottom: 2em;
-}
-
-div.components-container > h3 {
+main.components-container h3 {
     color: #5E5D5D;
     font-family: "Permanent Marker", cursive;
     font-weight: 400;
@@ -34,4 +32,12 @@ div.components-container > h3 {
     line-height: 16px;
     letter-spacing: 0%;
     text-align: right;
+}
+
+div.badge-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.3em;
+    margin-bottom: 2em;
 }

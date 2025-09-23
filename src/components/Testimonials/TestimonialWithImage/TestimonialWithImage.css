@@ -26,10 +26,11 @@ div.pic-container {
     align-items: center;
     width: 90%;
     height: 70%;
-    max-height: 400px;
+    max-height: 220px;
+    padding-top: 120px; /* Adjust Profile Pic position from the top */
     overflow: hidden;
     border-radius: 12px;
-    margin-top: -40%;
+    margin-top: -30%; /* Fine grain position of pic frame */
 }
 
 img.profile {
@@ -75,6 +76,7 @@ p.location {
 
     div.pic-container {
         flex: 0 0 300px;
+        padding: 0;
         max-height: none;
         height: 400px;
         margin: 0 0 0 25px;
