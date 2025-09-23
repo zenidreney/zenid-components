@@ -30,6 +30,7 @@ div.banner-header-row {
 
 div.banner-container .banner-header-row:nth-of-type(2) svg {
     opacity: 0;
+    flex: 0 0 1rem;
 }
 
 h2.banner-header {
