@@ -23,9 +23,11 @@ main.components-container {
     max-width: 720px;
 }
 
+
 main.components-container h3 {
     color: #5E5D5D;
     font-family: "Permanent Marker", cursive;
+    margin-block: 1.6em;
     font-weight: 400;
     font-style: Regular;
     font-size: 20px;

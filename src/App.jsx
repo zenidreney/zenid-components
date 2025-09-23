@@ -70,16 +70,17 @@ function App() {
           <Star onChange={() => console.log("Changed")} />
         </section>
 
-        <section id="button">
-          <h2>Button Component</h2>
-          {SampleButton}
-        </section>
-
         <section id="menu">
           <h2>Menu Component</h2>
           {SampleMenu}
           
         </section>
+        
+        <section id="button">
+          <h2>Button Component</h2>
+          {SampleButton}
+        </section>
+
 
       </main>
 
