@@ -17,16 +17,13 @@ div.banner-container {
     opacity: 1;
     border-radius: 6px;
     padding: 1em;
-
 }
-
 
 div.banner-header-row {
     display: flex;
     align-items: center;
     gap: 0.75em;
 }
-
 
 div.banner-container .banner-header-row:nth-of-type(2) svg {
     opacity: 0;
@@ -38,13 +35,10 @@ h2.banner-header {
     font-size: 0.875rem;
     line-height: 20px;
     letter-spacing: 0%;
-
 }
 
-
-
 div.banner-container p {
- 
+
     font-weight: 400;
     font-size: 0.875rem;
     line-height: 20px;
@@ -75,7 +69,7 @@ div.banner-error h2 {
     font-weight: 700;
 }
 
-div.banner-error  .error-icon {
+div.banner-error .error-icon {
     color: #F87171;
 }
 

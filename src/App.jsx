@@ -3,7 +3,8 @@ import Header from "./Header"
 import Star from "./components/Star"
 import { SamplePillBadge, SampleSquareBadge } from "./components/Badge/SampleBadge"
 import SampleButton from "./components/Button/SampleButton"
-import { DefaultTestimonialWithImage, Props } from "./components/Testimonials/TestimonialWithImage/SampleTestimonialWithImage"
+import { DefaultTestimonialWithImage, PropsTestimonialWithImage } from "./components/Testimonials/TestimonialWithImage/SampleTestimonialWithImage"
+import { DefaultTestimonialNoImage, PropsTestimonialNoImage } from "./components/Testimonials/TestimonialNoImage/SampleTestimonialNoImage"
 import { SampleDefaultCard, SamplePropsCard } from "./components/Card/SampleCard"
 import SampleMenu from "./components/Menu/SampleMenu"
 import { SampleSingleLineBanner, SampleMultiLineBanner } from "./components/Banner/SampleBanner"
@@ -24,7 +25,13 @@ function App() {
           <h3>Default Testimonial with Image</h3>
           {DefaultTestimonialWithImage}
           <h3>Props Testimonial with Image</h3>
-          {Props}
+          {PropsTestimonialWithImage}
+
+          <h3>Default Testimonial No Image</h3>
+          {DefaultTestimonialNoImage}
+
+          <h3>Props Testimonial No Image</h3>
+          {PropsTestimonialNoImage}
         </section>
 
         <section id="badge">
