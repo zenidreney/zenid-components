@@ -1,6 +1,6 @@
-# zenid-components
+# React UI-components
 
-**zenid-components** is a portfolio React components library showcasing reusable UI elements, layouts, and design patterns developed by Deniz Yener (https://github.com/zenidreney). The project demonstrates proficiency in modern front-end development, focusing on clean code, accessibility, and scalable design.
+React components library showcasing reusable UI elements, layouts, and design patterns. The project demonstrates proficiency in modern front-end development, focusing on clean code, accessibility, and scalable design.
 
 ## Features
 
