@@ -8,9 +8,11 @@ A simple, customizable **React badge component** built with CSS utility classes.
 - Custom content with `children`
 - Uses [`classnames`](https://www.npmjs.com/package/classnames) for clean class handling
 
-## 📦 Installationimport Badge from "./Badge"
+## 📦 Installation
 
 ```jsx
+import Badge from "./Badge"
+
 function App() {
   return (
     <div>
