@@ -47,14 +47,6 @@ const App = () => (
 
 > **Note:** Component APIs may evolve as this is a portfolio project.
 
-## Demo
-
-A live demo or storybook (if available) will be linked here.
-
-## Contributing
-
-This repository is primarily for portfolio purposes, but suggestions or issues are welcome. Feel free to open an issue or pull request.
-
 ## License
 
 This project is for portfolio/demo purposes with a MIT License.
