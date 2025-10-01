@@ -39,9 +39,20 @@ import { Button, Card } from 'zenid-components';
 
 const App = () => (
   <div>
-    <Button label="Click Me" />
-    <Card title="Portfolio Item" content="This is a sample card." />
+    <Badge
+        color="brown"
+        variant="square" />
+    <Button variant="success" size="sm">Green</Button>
+    <Card
+        iconBgColor="brown"
+        title="Props Based"
+    >Some sample text.
+    </Card>
+    <Banner text="" variant="success" />
+    <TestimonialWithImage />
+    <TestimonialNoImage />
   </div>
+
 );
 ```
 
